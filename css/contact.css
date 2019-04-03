@@ -29,6 +29,9 @@
 	color:black;
 	text-decoration:none;
 }
+.form-control-lg{
+	font-size:.9rem;
+}
 .contact-information .row2{
 	background:#f5f5f5;
 }
@@ -81,3 +84,43 @@
 	
 }
 /*end media query sm screen*/
+
+/*start media query xs screen*/
+@media only screen and (max-width: 575px){
+	.bgfixed-pic {
+		margin-top:0;
+	}
+	.contact-information{
+		margin-top:-2rem;
+		margin-bottom:0!important;
+		padding-bottom:0!important;
+		
+	}
+	.contact-information article{
+		padding:.5rem;
+		padding-left: 1.5rem;
+	}
+	.contact-information h4{
+		padding: .7rem 0 .5rem 1rem;
+	}
+	.contact-information .form-control{
+		width:100%;
+	}
+	.footer-bottom{
+		padding-left: 2rem;
+	}
+	.footer-bottom i{
+		padding: .9rem;
+	}
+	.footer-bottom i.last{
+		padding: .3rem;
+
+	}
+	.bottom-right-button{
+		left:88%;
+	}
+}
+/*end media query xs screen*/
+
+
+

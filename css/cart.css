@@ -172,3 +172,63 @@
 }
 /*end media query sm screen*/
 
+/*start media query xs screen*/
+@media only screen and (max-width: 575px){
+	.bgfixed-pic {
+		margin-top:0;
+	}
+	h6.p-2.p-md-4.p-lg-5{
+		padding:1rem!important;
+	}
+	.small-pics .row1 p:not(:first-child) {
+    padding-left: 3.3rem;
+	}
+	.small-pics .row1 p {
+    font-size: .7rem;
+	}
+	.small-pics .row2{
+		margin-right:0;
+	}
+	.small-pics .row3 .col-5 h6{
+		padding-top:2.5rem;
+	} 
+	.small-pics .row3 .col-7{
+		padding-left:0;
+	}
+	.small-pics .row2 h6{
+		padding: 1rem 1.2rem;
+		font-size: .8rem;
+	}
+	.small-pics .row3 h6{
+		
+    padding-left: 1.7rem;
+	}
+	.apply-coupon .form-control{
+		width:100%;
+	}
+	.pic-group2 .text-black-50{
+		font-size:.85rem;
+	}
+	.footer .footer-top input.special-width{
+		width:16rem;
+	}
+	.footer-bottom{
+		padding-left: 2rem;
+	}
+	.footer-bottom i{
+		padding: .9rem;
+	}
+	.footer-bottom i.last{
+		padding: .3rem;
+
+	}
+	.bottom-right-button{
+		left:87%;
+	}
+}
+/*end media query xs screen*/
+
+
+
+
+

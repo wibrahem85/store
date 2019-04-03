@@ -1,4 +1,4 @@
-/* start Templete Description */
+/* start Templete Description *
 	 ** Templete Name      :Store Templete "colorlib website"
 	 ** Templete Version   :v1.0.0
 	 ** Created_Date       :23/3/2019
@@ -21,6 +21,13 @@
 body{
 	 font-family: 'Roboto', Arial, sans-serif;
 }
+/* Start Section Loading */
+
+ 
+ 
+/* end Section Loading */
+
+
 /*end main rules*/
 
 /*start navbar*/
@@ -78,7 +85,7 @@ body{
 
 }
 .navbar .custom-ul li:hover a{
-	color:#fff;;
+	color:#fff;
 	padding-left:5px;
 	
 }
@@ -444,10 +451,12 @@ sub {
 
 /*start bottom-right-button*/
 .bottom-right-button{
-	position:sticky;
+	position:fixed;
+	display:none;
 	background:var(--maincolor);
 	bottom: 20px;
     left: 94%;
+	
 }
 .bottom-right-button i{
 	color:white;

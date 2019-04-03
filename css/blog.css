@@ -28,6 +28,7 @@
 .pic-group3{
 	padding-top:0;
 }
+  
 /*end pic-group3*/
 
 /*start media query md screen*/
@@ -57,6 +58,31 @@
 	}
 }
 /*end media query sm screen*/
+
+/*start media query xs screen*/
+@media only screen and (max-width: 575px){
+	.bgfixed-pic {
+		margin-top:0;
+	}
+	.footer .footer-top input.special-width{
+	width:16rem;
+	}
+	.footer-bottom{
+		padding-left: 2rem;
+	}
+	.footer-bottom i{
+		padding: .9rem;
+	}
+	.footer-bottom i.last{
+		padding: .3rem;
+
+	}
+	.bottom-right-button{
+		left:88%;
+	}
+}
+/*end media query xs screen*/
+
 
 
 

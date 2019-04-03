@@ -1,11 +1,13 @@
 $(document).ready(function(){
-	
+	// +,- drowpdwn menu in shop.html
 	$(".h6-1").click(function(){
 		
 		$('.ul-1').slideToggle('slow');
 		$(".h6-1").toggleClass('change-ul-color');
-		$(".h6-1 span").text("-");	
-			
+		$('.ss11').toggle();
+		$('.ss21').toggle();
+		
+ 			
 		
 			
 		
@@ -17,14 +19,16 @@ $(document).ready(function(){
 		
 		$('.ul-2').slideToggle('slow');
 		$(".h6-2").toggleClass('change-ul-color');
-		$(".h6-2 span").text("-");
+		$('.ss12').toggle();
+		$('.ss22').toggle();
 	});
 	
 	$(".h6-3").click(function(){
 		
 		$('.ul-3').slideToggle('slow');
 		$(".h6-3").toggleClass('change-ul-color');
-		$(".h6-3 span").text("-");
+		$('.ss13').toggle();
+		$('.ss23').toggle();
 	 	
 	});
 	
@@ -32,7 +36,35 @@ $(document).ready(function(){
 		
 		$('.ul-4').slideToggle('slow');
 		$(".h6-4").toggleClass('change-ul-color');
-		$(".h6-4 span").text("-");
+		$('.ss14').toggle();
+		$('.ss24').toggle();
 	});
+	
+	/* start niceScroll in all pages */
+	$("html").niceScroll();
+	/* end niceScroll in all pages */
+
+	
+	/*start  bottom-right-button that show when scroll > 300*/
+	$(window).scroll(function(){
+		 var scroll_value=$(this).scrollTop();
+		 if(scroll_value >= 300){
+		     $('.bottom-right-button').show('fast');		 
+		    // $('.bottom-right-button').css('opacity',1);		 
+		 }
+		 else{
+			 $('.bottom-right-button').hide('fast');		 
+			 //$('.bottom-right-button').css("opacity",0);
+			 // and take opacity:0; in style.css file
+
+			}
+		  
+		  });
+		/*end bottom-right-button that show when scroll > 300*/
+		
+		
+			
+
+	
 	
 })
