@@ -113,6 +113,30 @@
 }
 /*end bottom-right-button*/
 
+/*start media query lg screen*/
+@media only screen and (max-width: 1199px) and (min-width: 992px){
+ 
+	.apply-coupon a.text-white {
+    padding: .4rem;
+    line-height:1.5;
+	}
+	.apply-coupon span:not(.text-warning){
+		color:#595959!important;
+		
+	}
+	.apply-coupon span{
+		font-size:.9rem;
+	}
+	.apply-coupon .total{
+		padding:.5rem!important;
+	}
+	.bottom-right-button {
+    left: 92%;	
+	}
+	
+}
+/*start media query lg screen*/
+
 /*start media query md screen*/
 @media only screen and (max-width: 991px) and (min-width: 768px){
 	.navbar{
@@ -131,10 +155,13 @@
 	.footer-bottom .last{
 		padding-right:.25rem
 	}
+	.bottom-right-button {
+    left: 92%;
+	}
 }
 /*end media query md screen*/
 
-/*start media query msm screen*/
+/*start media query sm screen*/
 @media only screen and (max-width: 767px) and (min-width: 576px){
 	
 	.navbar{
@@ -208,6 +235,9 @@
 	}
 	.pic-group2 .text-black-50{
 		font-size:.85rem;
+	}
+	.pic-group2 .rel-pos:hover ul {
+    display: none;
 	}
 	.footer .footer-top input.special-width{
 		width:16rem;

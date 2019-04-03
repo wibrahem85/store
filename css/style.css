@@ -456,6 +456,7 @@ sub {
 	background:var(--maincolor);
 	bottom: 20px;
     left: 94%;
+	padding:.9rem 1.3rem!important
 	
 }
 .bottom-right-button i{

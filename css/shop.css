@@ -44,8 +44,29 @@
 .ul-group h6{
 	margin-bottom:2rem;
 }
-.ul-group p{
+.ul-group p.clearfix{
 	background:#fafafa;
+	padding-left:1.5rem!important;
+	padding-right:1.5rem!important;
+}
+.ul-group p.clearfix{
+	margin-bottom:0;
+}
+.ul-group p.ddlist11,.ul-group p.ddlist22{
+	background:#fafafa;
+	display:none;
+	padding-bottom:.3rem
+}
+.ul-group p.ddlist11 span,
+.ul-group p.ddlist22 span{
+	display:block;
+	padding:.5rem 0 0 1.5rem;
+}
+.ul-group p.ddlist11 span:hover{
+	background:lightblue;
+}
+.ul-group p.ddlist22 span:hover{
+	background:lightblue;
 }
 .colors button:hover{
 	cursor:pointer;

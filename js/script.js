@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	// +,- drowpdwn menu in shop.html
+	/*start categories +,- drowpdwn menus in shop.html*/
 	$(".h6-1").click(function(){
 		
 		$('.ul-1').slideToggle('slow');
@@ -7,13 +7,7 @@ $(document).ready(function(){
 		$('.ss11').toggle();
 		$('.ss21').toggle();
 		
- 			
-		
-			
-		
-				
-
-	});
+ 	});
 	
 	$(".h6-2").click(function(){
 		
@@ -39,6 +33,19 @@ $(document).ready(function(){
 		$('.ss14').toggle();
 		$('.ss24').toggle();
 	});
+	/*end categories menus in shop.html*/
+
+	
+	/*start price from , price to in shop.html*/
+	$('.ul-group p.ddlist1').click(function(){
+		$('.ul-group p.ddlist11').slideToggle()	
+		
+	});
+	$('.ul-group p.ddlist2').click(function(){
+		$('.ul-group p.ddlist22').slideToggle()	
+		
+	});
+	/*end price from , price to in shop.html*/
 	
 	/* start niceScroll in all pages */
 	$("html").niceScroll();
