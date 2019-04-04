@@ -38,11 +38,12 @@ $(document).ready(function(){
 	
 	/*start price from , price to in shop.html*/
 	$('.ul-group p.ddlist1').click(function(){
-		$('.ul-group p.ddlist11').slideToggle()	
+		$('.ul-group p.ddlist11').slideToggle();
+		
 		
 	});
 	$('.ul-group p.ddlist2').click(function(){
-		$('.ul-group p.ddlist22').slideToggle()	
+		$('.ul-group p.ddlist22').slideToggle();	
 		
 	});
 	/*end price from , price to in shop.html*/

@@ -44,6 +44,9 @@
 .ul-group h6{
 	margin-bottom:2rem;
 }
+h6.text-left.clearfix:hover {
+	cursor:pointer;
+}
 .ul-group p.clearfix{
 	background:#fafafa;
 	padding-left:1.5rem!important;
@@ -56,6 +59,12 @@
 	background:#fafafa;
 	display:none;
 	padding-bottom:.3rem
+}
+.ul-group p.ddlist1:hover,
+.ul-group p.ddlist11:hover,
+.ul-group p.ddlist2:hover,
+.ul-group p.ddlist22:hover{
+	cursor:pointer
 }
 .ul-group p.ddlist11 span,
 .ul-group p.ddlist22 span{
