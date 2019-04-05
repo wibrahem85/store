@@ -12,7 +12,7 @@
   src:url('../libs/fonts/roboto_font.css.css');
 }
 :root{
-	--maincolor:#FFC300;
+	--maincolor:#80ced6!important;
 	::selection:var(--maincolor)
 }
 ::selection{
@@ -55,39 +55,38 @@ body{
 }
 /* End Section Loading */
 
-/*start color theme*/
-.theme-1{
-	color:#20639B!important;
+/*start color theme
+.theme1{
+	background:#d5f4e6!important;
 }
-.theme-11{
-	background:#20639B!important;
+.theme11{
+	color:#d5f4e6!important;
 }
-.theme-2{
-	color:#80ced6!important;
-}
-.theme-22{
+.theme2{
 	background:#80ced6!important;
 }
-.theme-3{
-	color:#ed553b!important;
+.theme22{
+	color:#80ced6!important;
 }
-.theme-33{
-	background:#ed553b!important;
+.theme3{
+	background:#fefbd8!important;
 }
-.theme-4{
-	color:#618685!important;
+.theme33{
+	color:#fefbd8!important;
 }
-.theme-44{
+.theme4{
 	background:#618685!important;
 }
-.theme-5{
-	color:#ffc107!important;
+.theme44{
+	color:#618685!important;
 }
-.theme-55{
+.theme5{
 	background:#ffc107!important;
 }
-/*end color theme*/
-
+.theme55{
+	color:#ffc107!important;
+}
+*/
 .option-box {
     position: fixed;
     top: 79px;
@@ -122,7 +121,7 @@ body{
     cursor: pointer;
 	background:var(--maincolor);
 }
-/*end color-option*/
+/*start color theme*/
 
 /*end main rules*/
 

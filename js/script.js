@@ -56,7 +56,7 @@ $(document).ready(function(){
 	/*start  bottom-right-button that show when scroll > 300*/
 	$(window).scroll(function(){
 		 var scroll_value=$(this).scrollTop();
-		 if(scroll_value >= 300){
+		 if(scroll_value >= 600){
 		     $('.bottom-right-button').show('fast');		 
 		    // $('.bottom-right-button').css('opacity',1);		 
 		 }
@@ -69,10 +69,126 @@ $(document).ready(function(){
 		  
 		  });
 		/*end bottom-right-button that show when scroll > 300*/
-		
-		
+     
+	 
+		//start Loading Screen
+
+		 $(".loading-overlay .spinner").fadeOut(2000, function () {
+        
+
+
+        $(this).parent().fadeOut(1700, function () {
+            
+            $(this).remove();
 			
+			// Show The Scroll
+
+			$("body").css("overflow", "auto");
+
+			});
+		});
+		//end Loading Screen
+		
+		
+		//start color-option for index.html
+		 $('.cog-check').click(function(){
+			
+			$('.color-option').fadeToggle('fast');
+			});
+			$('.theme1').click(function(){
+		 
+			 $('.page-style').attr('href','css/theme01.css');
+				});
+			
+			 $('.theme2').click(function(){
+				 
+				 $('.page-style').attr('href','css/theme02.css');
+			 });
+			 $('.theme3').click(function(){
+				 
+				 $('.page-style').attr('href','css/theme03.css');
+			 });
+			 $('.theme4').click(function(){
+				 
+				 $('.page-style').attr('href','css/theme04.css');
+			 });
+			 $('.theme5').click(function(){
+				 
+				 $('.page-style').attr('href','css/theme05.css');
+			 });
+	 		//end color-option for index.html
+			
+	 		//start color-option for contact.html
+			  
+			$('.theme1').click(function(){
+		 
+			 $('.change-txt-color').addClass('theme-1');
+			 $('.change-bg-color').addClass('theme-11');
+				});
+			
+			 $('.theme2').click(function(){
+				 
+				 $('.change-txt-color').addClass('theme-2');
+			   $('.change-bg-color').addClass('theme-22');
+			 });
+			 
+			 $('.theme3').click(function(){
+				 
+				$('.change-txt-color').addClass('theme-3');
+			 $('.change-bg-color').addClass('theme-33');
+				});
+			
+			 
+			 $('.theme4').click(function(){
+				 
+			$('.change-txt-color').addClass('theme-4');
+			 $('.change-bg-color').addClass('theme-44');
+				});
+			
+			 $('.theme5').click(function(){
+				 
+				 $('.change-txt-color').addClass('theme-5');
+				$('.change-bg-color').addClass('theme-55');
+			});
+	 		//end color-option for contact.html
+
+			
+			/*$x= $('*').prop("background-color","#ffc107");
+			 console.log($x);
+			 $y= $('*').prop("color","#ffc107");
+			 console.log($y);
+			 $('.color-option .theme1').click(function(){
+				
+				$x.addClass('theme1');
+				$y.addClass('theme11');
+			});
+			
+			 $('.color-option .theme2').click(function(){
+				
+				$x.addClass('theme2');
+				$y.addClass('theme22');
+			});
+			
+			$('.color-option .theme3').click(function(){
+				
+				$x.addClass('theme3');
+				$y.addClass('theme33');
+			});
+			
+			$('.color-option .theme4').click(function(){
+				
+				$x.addClass('theme4');
+				$y.addClass('theme44');
+			});
+			
+			$('.color-option .theme5').click(function(){
+				
+				$x.addClass('theme5');
+				$y.addClass('theme55');
+			});*/
+			
+		
 
 	
 	
-})
+});
