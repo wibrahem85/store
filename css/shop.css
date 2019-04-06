@@ -89,7 +89,7 @@ h6.text-left.clearfix:hover {
 	color:var(--maincolor);
 	cursor:pointer;
 }
-ul{
+.second .ul-group ul{
 	margin:0;
 	margin-bottom:1rem;
 	padding:0;

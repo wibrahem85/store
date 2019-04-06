@@ -1,3 +1,10 @@
+/*start navbar*/
+.navbar .navbar-nav .active .nav-link{
+	color:var(--maincolor);
+}
+
+/*end navbar*/
+
 /*start bgfixed-pic*/
 .bgfixed-pic{
 	background:url('../images/cover-img-1.jpg');

@@ -39,11 +39,61 @@ $(document).ready(function(){
 	/*start price from , price to in shop.html*/
 	$('.ul-group p.ddlist1').click(function(){
 		$('.ul-group p.ddlist11').slideToggle();
+		$('.ul-group p.ddlist11 span:eq(0)').click(function(){
+			 $('.ul-group p.ddlist1 span.float-left').text($(this).text());
+
+			
+		});
+		$('.ul-group p.ddlist11 span:eq(1)').click(function(){
+			 $('.ul-group p.ddlist1 span.float-left').text($(this).text());
+
+			
+		});
+		$('.ul-group p.ddlist11 span:eq(2)').click(function(){
+			 $('.ul-group p.ddlist1 span.float-left').text($(this).text());
+
+			
+		});
+		$('.ul-group p.ddlist11 span:eq(3)').click(function(){
+			 $('.ul-group p.ddlist1 span.float-left').text($(this).text());
+
+			
+		});
+		$('.ul-group p.ddlist11 span:eq(4)').click(function(){
+			 $('.ul-group p.ddlist1 span.float-left').text($(this).text());
+
+			
+		});
 		
 		
 	});
 	$('.ul-group p.ddlist2').click(function(){
-		$('.ul-group p.ddlist22').slideToggle();	
+		$('.ul-group p.ddlist22').slideToggle();
+		$('.ul-group p.ddlist22 span:eq(0)').click(function(){
+			 $('.ul-group p.ddlist2 span.float-left').text($(this).text());
+
+			
+		});
+	    $('.ul-group p.ddlist22 span:eq(1)').click(function(){
+			 $('.ul-group p.ddlist2 span.float-left').text($(this).text());
+
+			
+		});	
+		$('.ul-group p.ddlist22 span:eq(2)').click(function(){
+			 $('.ul-group p.ddlist2 span.float-left').text($(this).text());
+
+			
+		});		
+		$('.ul-group p.ddlist22 span:eq(3)').click(function(){
+			 $('.ul-group p.ddlist2 span.float-left').text($(this).text());
+
+			
+		});
+		$('.ul-group p.ddlist22 span:eq(4)').click(function(){
+			 $('.ul-group p.ddlist2 span.float-left').text($(this).text());
+
+			
+		});
 		
 	});
 	/*end price from , price to in shop.html*/
@@ -77,7 +127,7 @@ $(document).ready(function(){
         
 
 
-        $(this).parent().fadeOut(1700, function () {
+        $(this).parent().fadeOut(1500, function () {
             
             $(this).remove();
 			
@@ -122,33 +172,33 @@ $(document).ready(function(){
 			  
 			$('.theme1').click(function(){
 		 
-			 $('.change-txt-color').addClass('theme-1');
-			 $('.change-bg-color').addClass('theme-11');
+			 $('.change-txt-color').css('color','#20639B');
+			 $('.change-bg-color').css('background','#20639B');
 				});
 			
 			 $('.theme2').click(function(){
 				 
-				 $('.change-txt-color').addClass('theme-2');
-			   $('.change-bg-color').addClass('theme-22');
+				 $('.change-txt-color').css('color','#80ced6');
+			   $('.change-bg-color').css('background','#80ced6');
 			 });
 			 
 			 $('.theme3').click(function(){
 				 
-				$('.change-txt-color').addClass('theme-3');
-			 $('.change-bg-color').addClass('theme-33');
+				$('.change-txt-color').css('color','#ed553b');
+			 $('.change-bg-color').css('background','#ed553b');
 				});
 			
 			 
 			 $('.theme4').click(function(){
 				 
-			$('.change-txt-color').addClass('theme-4');
-			 $('.change-bg-color').addClass('theme-44');
+			$('.change-txt-color').css('color','#618685');
+			 $('.change-bg-color').css('background','#618685');
 				});
 			
 			 $('.theme5').click(function(){
 				 
-				 $('.change-txt-color').addClass('theme-5');
-				$('.change-bg-color').addClass('theme-55');
+				 $('.change-txt-color').css('color','#ffc107');
+				$('.change-bg-color').css('background','#ffc107');
 			});
 	 		//end color-option for contact.html
 
