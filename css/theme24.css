@@ -1,0 +1,67 @@
+/*start navbar*/
+.navbar-light .navbar-nav .active .nav-link {
+    color: #618685;
+}
+
+/*end navbar*/
+
+/*start bgfixed-pic*/
+.bgfixed-pic a:not(:last-of-type) {
+    color: #618685;
+
+}
+
+/*end bgfixed-pic*/
+
+/*start small-pics*/
+
+.first-h6 {
+    color: #618685;
+}
+
+/*end small-pics*/
+
+/*start apply-coupon*/
+.apply-coupon a.form-control {
+
+    background: #618685;
+
+}
+
+.apply-coupon hr {
+
+    border-top: .12rem solid #618685
+}
+
+.result {
+    color: #618685
+}
+
+/*end apply-coupon*/
+.bottom-right-button {
+    background: #618685
+}
+
+.first-pic-group2 hr {
+    border-top: 2px solid #618685;
+}
+
+.pic-group2 .rel-pos span {
+    background: #618685;
+}
+
+.pic-group2 .rel-pos p:last-of-type {
+    color: #618685;
+}
+
+.pic-group2 .rel-pos ul li:hover {
+    background: #618685;
+}
+
+.footer .footer-top {
+    background: #618685;
+}
+
+.option-box .cog-check {
+    background: #618685;
+}

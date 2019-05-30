@@ -1,0 +1,27 @@
+ .bgfixed-pic a:first-of-type {
+     color: var(--maincolor);
+ }
+
+ .change-ul-color {
+     color: var(--maincolor);
+ }
+
+ .span-group span:hover {
+     color: var(--maincolor);
+ }
+
+ .page-item.active .page-link {
+     background-color: var(--maincolor);
+ }
+
+ .pagination .page-link:hover {
+     background: var(--maincolor);
+ }
+
+ .navbar-light .navbar-nav .active .nav-link {
+     color: var(--maincolor);
+ }
+
+ .footer .footer-top {
+     background: var(--maincolor);
+ }

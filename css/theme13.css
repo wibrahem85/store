@@ -1,0 +1,56 @@
+.bgfixed-pic a:first-of-type {
+    color: #ed553b;
+}
+
+.change-ul-color {
+    color: #ed553b;
+}
+
+.span-group span:hover {
+    color: #ed553b;
+}
+
+.page-item.active .page-link {
+    background-color: #ed553b;
+}
+
+.pagination .page-link:hover {
+    background: #ed553b;
+}
+
+.navbar-light .navbar-nav .active .nav-link {
+    color: #ed553b;
+}
+
+.option-box .cog-check {
+    background: #ed553b;
+}
+
+.pic-group2 .rel-pos ul li:hover {
+    background: #ed553b;
+}
+
+.pic-group2 .rel-pos span {
+    background: #ed553b;
+}
+
+.pic-group2 .rel-pos p:last-of-type {
+    color: #ed553b;
+}
+
+.bottom-right-button {
+    background: #ed553b;
+}
+
+.footer-bottom i {
+    color: #ed553b;
+}
+
+.footer-bottom p.last-p a {
+    color: #ed553b;
+}
+
+.footer .footer-top {
+    background: #ed553b;
+
+}
