@@ -109,6 +109,14 @@
     form.form-inline {
         margin-left: 1.5rem;
     }
+
+    .footer .footer-top input.special-width {
+        width: 14rem;
+    }
+
+    .bottom-right-button {
+        left: 82%;
+    }
 }
 
 @media only screen and (width:411px) {
