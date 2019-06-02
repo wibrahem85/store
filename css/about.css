@@ -63,6 +63,11 @@
         padding-bottom: 1.5rem;
     }
 
+    .about-history .text-left {
+        padding-left: 2.7rem;
+        padding-bottom: 2rem;
+    }
+
     .container.about-history.py-5.mb-5 {
         padding-top: 0 !important;
     }
@@ -135,6 +140,10 @@
         margin-top: 0;
     }
 
+    .about-history .text-left {
+        padding-left: 23px;
+    }
+
     .about-history .col-lg-3.text-right.pr-5 {
         text-align: left !important;
         padding-left: 1.5rem;
@@ -158,8 +167,12 @@
         font-size: .9rem;
     }
 
+    .footer .footer-top .text {
+        font-size: 1.3rem;
+    }
+
     .footer .footer-top input.special-width {
-        width: 16rem;
+        width: 13rem;
     }
 
     .footer-bottom {
@@ -176,8 +189,65 @@
     }
 
     .bottom-right-button {
-        left: 88%;
+        left: 80%;
     }
 }
 
 /*end media query xs screen*/
+@media only screen and (width: 411px) {
+    .footer .footer-top input.special-width {
+        width: 13rem;
+    }
+
+    .footer-bottom .last-p {
+        font-size: .7rem;
+    }
+
+    .bottom-right-button {
+        left: 82%;
+    }
+}
+
+@media only screen and (width: 414px) {
+    .bgfixed-pic {
+        margin-bottom: 2rem;
+    }
+
+    form.form-inline {
+        margin-left: .5rem;
+    }
+}
+
+
+@media only screen and (width: 375px) {
+    .bgfixed-pic {
+        margin-bottom: 2rem;
+    }
+}
+
+
+
+@media only screen and (width: 320px) {
+    .footer .footer-top .text {
+        font-size: 1rem;
+    }
+
+    .footer .footer-top input.special-width {
+        width: 10rem;
+    }
+
+    .footer .footer-top span {
+        padding-right: 3rem !important;
+        font-size: .8rem;
+    }
+
+    .footer-bottom p.last-p {
+        padding-top: 4rem;
+        font-size: .62rem;
+    }
+
+    .bottom-right-button {
+        left: 78%;
+    }
+
+}

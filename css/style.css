@@ -990,16 +990,16 @@ sub {
 
     .pic-group2 .text-black-50 {
         margin-bottom: 3rem;
-        font-size: .6rem;
+        font-size: .55rem;
     }
 
     .pic-group2 .rel-pos ul {
-        bottom: 94px;
-        width: 92.5%;
+        bottom: 90px;
+        width: 92%;
     }
 
     .pic-group2 .rel-pos ul.ul-4 {
-        bottom: 118px;
+        bottom: 112px;
     }
 
     .bgfixed-pic {
@@ -1023,9 +1023,9 @@ sub {
         margin-top: -3.5rem;
     }
 
-    .last-pic-group2 .rel-pos:hover ul {
+    /*.last-pic-group2 .rel-pos:hover ul.list-unstyled {
         display: none;
-    }
+    }*/
 
     .testimonials-carousel {
         display: none
@@ -1052,11 +1052,17 @@ sub {
         width: 0
     }
 
-    .footer .footer-top input.special-width {
-        width: 10rem;
+    form.form-inline {
+        margin-left: -.5rem;
     }
 
-    .col-12.col-lg-6.py-4.last {
+    .footer .footer-top input.special-width {
+        width: 13rem;
+        margin-right: -1rem;
+        font-size: .9rem;
+    }
+
+    .footer .footer-top input.special-width .col-12.col-lg-6.py-4.last {
         padding-left: 6rem;
     }
 
@@ -1084,5 +1090,71 @@ sub {
         left: 76%;
     }
 }
+
+@media only screen and (width: 411px) {
+    .bottom-right-button {
+        left: 82%;
+    }
+
+    form.form-inline {
+        margin-left: .5rem;
+    }
+}
+
+
+@media only screen and (width: 320px) {
+    .pic-group2 .text-black-50 {
+
+        font-size: .49rem;
+    }
+
+    .pic-group2 .rel-pos:hover ul {
+        display: none;
+    }
+
+    .footer .footer-top .text {
+        font-size: 1rem;
+    }
+
+    .footer .footer-top input.special-width {
+        width: 10rem;
+        margin-right: -.5rem
+    }
+
+    bottom-right-button {
+        left: 80%;
+    }
+
+}
+
+@media only screen and (width: 414px) {
+    .pic-group2 .rel-pos:hover ul {
+        display: none;
+    }
+
+    .bottom-right-button {
+        left: 81%;
+    }
+}
+
+@media only screen and (width: 375px) {
+    .pic-group2 .rel-pos:hover ul {
+        display: none;
+    }
+
+    .footer .footer-top .text {
+        font-size: 1.1rem;
+    }
+
+    .footer-bottom .last-p {
+        font-size: .7rem;
+    }
+
+    .bottom-right-button {
+        left: 83%;
+    }
+
+}
+
 
 /*end media query*/

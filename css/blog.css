@@ -105,3 +105,79 @@
 }
 
 /*end media query xs screen*/
+@media only screen and (width: 414px) {
+    form.form-inline {
+        margin-left: 1.5rem;
+    }
+}
+
+@media only screen and (width:411px) {
+    .footer .footer-top input.special-width {
+        width: 14rem;
+        font-size: .9rem;
+    }
+
+    .footer .footer-top span {
+        margin-left: 1-.5rem;
+    }
+
+    .bottom-right-button {
+        left: 82%;
+    }
+}
+
+@media only screen and (width: 375px) {
+    .bgfixed-pic {
+        margin-bottom: 8rem;
+    }
+
+    .footer .footer-top input.special-width {
+        width: 13rem;
+    }
+
+    footer .footer-top input.special-width {
+        width: 10rem;
+        margin-right: 0;
+    }
+
+    .bottom-right-button {
+        left: 82%;
+    }
+}
+
+@media only screen and (width: 360px) {
+    .footer .footer-top .text {
+        font-size: 1.1rem;
+    }
+
+    .footer .footer-top input.special-width {
+        width: 10rem;
+    }
+
+    .footer-bottom .last-p {
+        font-size: .65rem;
+    }
+
+    .bottom-right-button {
+        left: 80%;
+    }
+}
+
+@media only screen and (width: 320px) {
+    form.form-inline {
+        margin-left: .5rem;
+    }
+
+    .footer .footer-top input.special-width {
+        width: 8rem;
+        font-size: .67rem;
+    }
+
+    footer .footer-top span {
+        margin-left: -.5rem;
+    }
+
+    .bottom-right-button {
+        left: 79%;
+    }
+}

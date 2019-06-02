@@ -24,6 +24,7 @@
      text-decoration: none;
      padding-right: .5rem;
  }
+
  .bgfixed-pic a:last-of-type,
  .bgfixed-pic a:last-of-type:hover {
      color: black;
@@ -203,7 +204,7 @@
      }
 
      .bottom-right-button {
-         left: 92%;
+         left: 90%;
      }
  }
 
@@ -332,3 +333,101 @@
  }
 
  /*end media query xs screen*/
+
+ @media only screen and (width: 375px) {
+     h6.p-2.p-md-4.p-lg-5 {
+         padding: 0;
+     }
+
+     .small-pics .row2 h6 {
+         padding: 1rem .3rem;
+         font-size: .7rem;
+     }
+
+     span.px-4.py-2.border {
+         padding-left: 1rem !important;
+         padding-right: 1rem !important;
+     }
+
+     .small-pics .row3 h6 {
+         padding-left: .2rem;
+     }
+
+     .pic-group2 .text-black-50 {
+         font-size: .55rem;
+     }
+
+     .pic-group2. p.text-black-50 {
+         color: rgba(0, 0, 0, .8) !important;
+     }
+
+     .footer .footer-top input.special-width {
+         width: 14rem;
+     }
+
+     .bottom-right-button {
+         left: 81%;
+     }
+
+
+ }
+
+ @media only screen and (width: 411px) {
+     input.special-width {
+         width: 14rem;
+     }
+
+     .bottom-right-button {
+         left: 81%;
+     }
+ }
+
+ @media only screen and (width: 360px) {
+     .footer .footer-top .text {
+         font-size: 1.2rem;
+     }
+
+     .footer .footer-top input.special-width {
+         width: 13rem;
+     }
+ }
+
+ @media only screen and (width: 320px) {
+     h6.p-2.p-md-4.p-lg-5.d-inline-block.border.rounded-circle.first-h6 {
+         padding: .2rem !important;
+     }
+
+     .small-pics .row1 p {
+         font-size: .6rem;
+     }
+
+     .small-pics .row2 h6 {
+         padding: 1rem .1rem;
+         font-size: .6rem;
+     }
+
+     .small-pics .row3 .col-5 h6 {
+         padding-top: 3.2rem;
+         font-size: .6rem;
+     }
+
+     h3.text-uppercase.px-3.d-inline-block {
+         font-size: .7rem;
+     }
+
+     pic-group2 .text-black-50 {
+         font-size: .45rem;
+     }
+
+     .footer .footer-top input.special-width {
+         width: 10rem;
+     }
+
+     .footer-bottom .last-p {
+         font-size: .64rem;
+     }
+
+     .bottom-right-button {
+         left: 78%;
+     }
+ }

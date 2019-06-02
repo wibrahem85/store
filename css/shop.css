@@ -176,6 +176,27 @@ ul li {
 /*end pagination*/
 
 /*start media query md screen*/
+@media only screen and (min-width: 992px) {
+
+    .pic-group2 .rel-pos ul.shop-ul-one {
+        bottom: 64px;
+    }
+
+    .pic-group2 .rel-pos ul.shop-ul-two {
+        bottom: 77px;
+    }
+
+    .pic-group2 .rel-pos ul.shop-ul-three {
+        bottom: 86px;
+    }
+
+    .pic-group2 .rel-pos ul.shop-ul-four {
+        bottom: 88px;
+        width: 88%;
+    }
+
+}
+
 @media only screen and (max-width: 991px) and (min-width: 768px) {
     .navbar {
         padding-bottom: 1.5rem;
@@ -190,7 +211,7 @@ ul li {
     }
 
     .bottom-right-button {
-        left: 92%;
+        left: 90%;
     }
 }
 
@@ -252,5 +273,99 @@ ul li {
         left: 88%;
     }
 }
+
+@media only screen and (width: 414px) {
+    .pagination {
+        padding-left: 3rem;
+    }
+
+    .bottom-right-button {
+        left: 83%;
+    }
+}
+
+@media only screen and (width: 411px) {
+    .footer .footer-top input.special-width {
+        width: 13rem;
+    }
+
+    .pagination {
+        padding-left: 3rem;
+    }
+
+    .bottom-right-button {
+        left: 83%;
+    }
+}
+
+
+
+
+@media only screen and (width: 375px) {
+
+    .pagination {
+        padding-left: 3rem;
+    }
+
+    .footer .footer-top input.special-width {
+        width: 13rem;
+    }
+
+    .footer-bottom .last-p {
+        font-size: .7rem;
+    }
+
+    .bottom-right-button {
+        left: 82%;
+    }
+}
+
+@media only screen and (width: 360px) {
+    form.form-inline {
+        margin-left: 1.3rem;
+    }
+
+    .footer .footer-top input.special-width {
+        margin-right: 0;
+    }
+
+    .footer .footer-top input.special-width {
+        width: 10rem;
+    }
+
+    .bottom-right-button {
+        left: 81%;
+    }
+}
+
+@media only screen and (width: 320px) {
+    .pagination {
+        padding-left: .8rem;
+    }
+
+    .footer .footer-top .text {
+        font-size: 1rem;
+    }
+
+    .footer .footer-top input.special-width {
+        width: 10rem;
+    }
+
+    .footer-bottom p {
+        font-size: .8rem;
+    }
+
+    .bottom-right-button {
+        left: 79%;
+    }
+
+    .footer-bottom .last-p {
+        font-size: .63rem;
+    }
+}
+
+
+
+
 
 /*end media query xs screen*/
