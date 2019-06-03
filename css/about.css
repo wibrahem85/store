@@ -203,6 +203,16 @@
 }
 
 /*end media query xs screen*/
+@media only screen and (width: 414px) {
+    .bgfixed-pic {
+        margin-bottom: 2rem;
+    }
+
+    form.form-inline {
+        margin-left: 1.5rem;
+    }
+}
+
 @media only screen and (width: 411px) {
     .footer .footer-top input.special-width {
         width: 13rem;
@@ -217,15 +227,6 @@
     }
 }
 
-@media only screen and (width: 414px) {
-    .bgfixed-pic {
-        margin-bottom: 2rem;
-    }
-
-    form.form-inline {
-        margin-left: .5rem;
-    }
-}
 
 
 @media only screen and (width: 375px) {

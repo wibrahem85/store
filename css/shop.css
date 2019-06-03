@@ -296,6 +296,10 @@ ul li {
         padding-left: 3rem;
     }
 
+    .footer .footer-top input.special-width {
+        width: 13rem;
+    }
+
     .bottom-right-button {
         left: 83%;
     }
