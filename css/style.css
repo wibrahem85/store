@@ -910,6 +910,10 @@ sub {
         display: none
     }
 
+    h3.text-uppercase.px-3.d-inline-block {
+        font-size: 1.5rem;
+    }
+
     .testimonials-carousel {
         margin-top: -6rem;
     }
@@ -1091,7 +1095,26 @@ sub {
     }
 }
 
+@media only screen and (width: 414px) {
+    .pic-group2 .rel-pos:hover ul {
+        display: none;
+    }
+
+    .bottom-right-button {
+        left: 81%;
+    }
+}
+
 @media only screen and (width: 411px) {
+    .pic-group2 .rel-pos:hover ul.ul-4 {
+        bottom: 95px;
+        width: 92.8%;
+    }
+
+    .pic-group2 .rel-pos:hover ul.list-unstyled.list-inline.m-0.p-0.text-white {
+        display: none;
+    }
+
     .bottom-right-button {
         left: 82%;
     }
@@ -1099,6 +1122,25 @@ sub {
     form.form-inline {
         margin-left: .5rem;
     }
+}
+
+@media only screen and (width: 375px) {
+    .pic-group2 .rel-pos:hover ul {
+        display: none;
+    }
+
+    .footer .footer-top .text {
+        font-size: 1.1rem;
+    }
+
+    .footer-bottom .last-p {
+        font-size: .7rem;
+    }
+
+    .bottom-right-button {
+        left: 83%;
+    }
+
 }
 
 
@@ -1127,34 +1169,7 @@ sub {
 
 }
 
-@media only screen and (width: 414px) {
-    .pic-group2 .rel-pos:hover ul {
-        display: none;
-    }
 
-    .bottom-right-button {
-        left: 81%;
-    }
-}
-
-@media only screen and (width: 375px) {
-    .pic-group2 .rel-pos:hover ul {
-        display: none;
-    }
-
-    .footer .footer-top .text {
-        font-size: 1.1rem;
-    }
-
-    .footer-bottom .last-p {
-        font-size: .7rem;
-    }
-
-    .bottom-right-button {
-        left: 83%;
-    }
-
-}
 
 
 /*end media query*/

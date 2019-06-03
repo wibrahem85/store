@@ -118,6 +118,11 @@
 
     }
 
+    .col-lg-3.text-left.pr-5 {
+        padding-left: 2.7rem;
+        padding-bottom: 1.5rem;
+    }
+
     .container.about-history .img-fluid {
 
         padding: 1rem 0 1.7rem 0;
@@ -165,6 +170,10 @@
     .about-history .clearfix p {
         margin-top: 1rem;
         font-size: .9rem;
+    }
+
+    form.form-inline {
+        margin-left: 2.5rem;
     }
 
     .footer .footer-top .text {

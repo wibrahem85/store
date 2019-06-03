@@ -80,6 +80,11 @@
 @media only screen and (max-width: 575px) {
     .bgfixed-pic {
         margin-top: 0;
+        margin-bottom: 7.5rem;
+    }
+
+    form.form-inline {
+        margin-left: 2.5rem;
     }
 
     .footer .footer-top input.special-width {

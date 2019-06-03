@@ -176,6 +176,15 @@ ul li {
 /*end pagination*/
 
 /*start media query md screen*/
+@media only screen and (min-width: 1201px) {
+    .pic-group2 .rel-pos ul.shop-ul-four {
+        bottom: 105px;
+        width: 90%;
+    }
+}
+
+
+
 @media only screen and (min-width: 992px) {
 
     .pic-group2 .rel-pos ul.shop-ul-one {
@@ -248,8 +257,16 @@ ul li {
         margin-top: 0
     }
 
+    .pic-group2 .rel-pos:hover ul {
+        display: none
+    }
+
     .pagination {
         padding-left: 7rem;
+    }
+
+    form.form-inline {
+        margin-left: 2.5rem;
     }
 
     .footer .footer-top input.special-width {
@@ -285,6 +302,10 @@ ul li {
 }
 
 @media only screen and (width: 411px) {
+    .pic-group2 .rel-pos:hover ul {
+        display: none
+    }
+
     .footer .footer-top input.special-width {
         width: 13rem;
     }
