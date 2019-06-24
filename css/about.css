@@ -233,8 +233,15 @@
     .bgfixed-pic {
         margin-bottom: 2rem;
     }
-}
 
+    .footer .footer-top input.special-width {
+        width: 11rem;
+    }
+
+    .bottom-right-button {
+        left: 82%;
+    }
+}
 
 
 @media only screen and (width: 320px) {

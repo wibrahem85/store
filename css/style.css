@@ -9,7 +9,7 @@
 /*start main rules*/
 @font-face {
     font-family: 'Roboto', Arial, sans-serif;
-    src: url('../libs/fonts/roboto_font.css.css');
+    src: url('../libs/fonts/roboto_font.css');
 }
 
 :root {
@@ -1000,6 +1000,11 @@ sub {
     .pic-group2 .rel-pos ul {
         bottom: 90px;
         width: 92%;
+    }
+
+
+    .pic-group2 .rel-pos:hover ul {
+        display: none
     }
 
     .pic-group2 .rel-pos ul.ul-4 {

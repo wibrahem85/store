@@ -339,6 +339,10 @@
          padding: 0;
      }
 
+     h6.p-2.p-md-4.p-lg-5 {
+         padding: .5rem !important;
+     }
+
      .small-pics .row2 h6 {
          padding: 1rem .3rem;
          font-size: .7rem;
@@ -360,6 +364,7 @@
      .pic-group2. p.text-black-50 {
          color: rgba(0, 0, 0, .8) !important;
      }
+
 
      .footer .footer-top input.special-width {
          width: 14rem;

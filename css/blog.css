@@ -144,11 +144,8 @@
         margin-bottom: 8rem;
     }
 
-    .footer .footer-top input.special-width {
-        width: 13rem;
-    }
 
-    footer .footer-top input.special-width {
+    .footer .footer-top input.special-width {
         width: 10rem;
         margin-right: 0;
     }
