@@ -334,50 +334,8 @@
 
  /*end media query xs screen*/
 
- @media only screen and (width: 375px) {
-     h6.p-2.p-md-4.p-lg-5 {
-         padding: 0;
-     }
 
-     h6.p-2.p-md-4.p-lg-5 {
-         padding: .5rem !important;
-     }
-
-     .small-pics .row2 h6 {
-         padding: 1rem .3rem;
-         font-size: .7rem;
-     }
-
-     span.px-4.py-2.border {
-         padding-left: 1rem !important;
-         padding-right: 1rem !important;
-     }
-
-     .small-pics .row3 h6 {
-         padding-left: .2rem;
-     }
-
-     .pic-group2 .text-black-50 {
-         font-size: .55rem;
-     }
-
-     .pic-group2. p.text-black-50 {
-         color: rgba(0, 0, 0, .8) !important;
-     }
-
-
-     .footer .footer-top input.special-width {
-         width: 14rem;
-     }
-
-     .bottom-right-button {
-         left: 81%;
-     }
-
-
- }
-
- @media only screen and (width: 411px) {
+ @media only screen and (width: 414px) {
      h6.p-2.p-md-4.p-lg-5.d-inline-block.rounded-circle {
          padding: .5rem !important;
      }
@@ -437,6 +395,49 @@
      .bottom-right-button {
          left: 81%;
      }
+ }
+
+ @media only screen and (width: 375px) {
+     h6.p-2.p-md-4.p-lg-5 {
+         padding: 0;
+     }
+
+     h6.p-2.p-md-4.p-lg-5 {
+         padding: .5rem !important;
+     }
+
+     .small-pics .row2 h6 {
+         padding: 1rem .3rem;
+         font-size: .7rem;
+     }
+
+     span.px-4.py-2.border {
+         padding-left: 1rem !important;
+         padding-right: 1rem !important;
+     }
+
+     .small-pics .row3 h6 {
+         padding-left: .2rem;
+     }
+
+     .pic-group2 .text-black-50 {
+         font-size: .55rem;
+     }
+
+     .pic-group2. p.text-black-50 {
+         color: rgba(0, 0, 0, .8) !important;
+     }
+
+
+     .footer .footer-top input.special-width {
+         width: 14rem;
+     }
+
+     .bottom-right-button {
+         left: 81%;
+     }
+
+
  }
 
  @media only screen and (width: 360px) {
