@@ -96,6 +96,7 @@ $(document).ready(function () {
 
     });
     /*end price from , price to in shop.html*/
+
     /******start pagination in shop.html*/
 
     /*$('ul.pagination li:nth-child(1)').click(function () {
